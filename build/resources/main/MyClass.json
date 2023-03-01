@@ -1,8 +1,4 @@
-[{"MyClass":[{"name":"lol"}],"MyClass":[}],"MyClass":[}],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"MyClass":[}],"MyClass":[}],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayInt":[I@6acbcfc0,"arrayString":"[Ljava.lang.String;@5f184fc6","anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayInt":[I@6acbcfc0,"arrayString":"[Ljava.lang.String;@5f184fc6","anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayInt":class [I,"arrayString":"[Ljava.lang.String;@6acbcfc0","anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayInt":2,"arrayString":"[Ljava.lang.String;@6acbcfc0","anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayInt":[3],"arrayString":"[Ваня]","anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayInt":[1,2,3],"arrayString":"[Аня,Ваня]","anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true}]
+[{"MyClass":[{"name":"lol"}],"arrayInt":[1,2,3],"arrayString":["Аня","Ваня"],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
+{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
+{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
+{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true,"list":["Hello","Vov"]}]
