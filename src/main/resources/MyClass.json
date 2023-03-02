@@ -1,5 +1,5 @@
-[{"MyClass":[{"name":"lol"}],"arrayInt":[1,2,3],"arrayString":["Аня","Ваня"],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true},
-{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true,"list":["Hello","Vov"]},
+[{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true,"list":[1,2,3]},
+{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true,"list":[1,2,3]},
+{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true,"list":[1,2,3]},
+{"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true,"list":[1,2,3]},
 {"MyClass":[{"name":"lol"}],"arrayString":["Аня","Ваня"],"arrayInt":[1,2,3],"anInt":1,"aDouble":1.11,"str":"Привет","aBoolean":true,"list":[1,2,3]}]

@@ -83,7 +83,6 @@ public class JsonParser {
     }
 
     public static void toObject(File file){
-        String jsonStr = OutputLogic.readJson(file);
-
+        List<String> list = OutputLogic.readJson(file);
     }
 }

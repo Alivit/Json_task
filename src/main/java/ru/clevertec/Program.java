@@ -12,7 +12,6 @@ public class Program {
         MyClass myClass = new MyClass();
         String result = JsonParser.toJson(myClass);
         InputLogic.addToJson(result,myClass);
-        System.out.println(result);
         File file = new File("src/main/resources/MyClass.json");
         JsonParser.toObject(file);
     }
