@@ -24,7 +24,7 @@ public class InputLogic {
         listJson.set(listJson.size() - 1, listJson.get(listJson.size() - 1) + "]");
         List<String> list1 = listJson.stream().limit(listJson.size() - 1).map(list -> list + ",").toList(); // добавление запятых кроме последней строки
         List<String> list2 = listJson.stream().skip(listJson.size() - 1).toList(); // получение последней строки
-        listJson = Stream.concat(list1.stream(), list2.stream()).toList(); // объелинение
+        listJson = Stream.concat(list1.stream(), list2.stream()).toList(); // объединение
         try(FileWriter writer = new FileWriter(file, false)){
             PrintWriter print = new PrintWriter(writer);
             listJson.forEach(print::println);

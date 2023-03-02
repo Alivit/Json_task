@@ -1,14 +1,19 @@
 package ru.clevertec.parser;
 
-import ru.clevertec.logic.OutputLogic;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jsr310.JSR310Module;
 import org.apache.commons.lang3.ClassUtils;
 
 import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Stream;
 
 public class JsonParser {
@@ -82,7 +87,17 @@ public class JsonParser {
         return "[" + StrCollection + "]";
     }
 
-    public static void toObject(File file){
-        List<String> list = OutputLogic.readJson(file);
+    public static List<?> toObject(File file) throws IOException{
+        return newMapper().readValue(file, new TypeReference<>() {
+        });
+
+    }
+
+    private static ObjectMapper newMapper() {
+        final ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        mapper.setLocale(Locale.ENGLISH);
+        mapper.registerModule(new JSR310Module());
+        return mapper;
     }
 }
